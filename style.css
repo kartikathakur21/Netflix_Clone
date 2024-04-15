@@ -360,11 +360,61 @@ footer .ques{
     font-size: 14px;
     margin-top: 10px;
 }
-@media screen and (max-width:1250px) {
+@media screen and (max-width:768px) {
+    .first{
+        flex-wrap: wrap;
+    }
+    .second{
+        flex-wrap: wrap-reverse;
+    }
+    .third{
+        flex-wrap: wrap;
+    }
+    .fourth{
+        flex-wrap: wrap-reverse;
+    }
     .footer{display: grid;
         grid-template-columns: 1fr 1fr;
         color:rgba(255, 255, 255, 0.7);
         max-width: 60vw;
         margin: auto;}
 
-}
+    body {
+      font-size: 14px; /* Adjust the base font size for smaller screens */
+    }
+  
+    .main {
+      background-size: cover; /* Adjust background size for smaller screens */
+    }
+  
+    nav {
+      max-width: 90vw; /* Adjust max-width for smaller screens */
+    }
+  
+    nav img {
+      width: 100px; /* Adjust logo size for smaller screens */
+    }
+  
+    .textt {
+      padding: 0 15px; /* Adjust padding for smaller screens */
+    }
+  
+    .textt > :nth-child(1) {
+      font-size: 36px; /* Adjust font size for smaller screens */
+    }
+  
+    .textt > :nth-child(2) {
+      font-size: 18px; /* Adjust font size for smaller screens */
+    }
+  
+    .textt > :nth-child(3) {
+      font-size: 16px; /* Adjust font size for smaller screens */
+    }
+  
+    .main input {
+      padding: 12px 20px; /* Adjust input padding for smaller screens */
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+  }
+  
